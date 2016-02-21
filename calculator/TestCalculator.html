@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="TestCalculator.js"></script>
+</head>
+
+<body>
+    <FORM NAME="Calc">
+        <TABLE BORDER=4>
+            <TR>
+                <TD>
+                    <INPUT id="calcResult" TYPE="text" NAME="Input" Size="16">
+                    <br>
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <INPUT TYPE="button" NAME="one" VALUE="  1  " OnClick="Calculator.append('1','calcResult')">
+                    <INPUT TYPE="button" NAME="two" VALUE="  2  " OnCLick="Calculator.append('2','calcResult')">
+                    <INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calculator.append('3','calcResult')">
+                    <INPUT TYPE="button" NAME="plus" VALUE="  +  " OnClick="Calculator.append(' + ','calcResult')">
+                    <br>
+                    <INPUT TYPE="button" NAME="four" VALUE="  4  " OnClick="Calculator.append('4','calcResult')">
+                    <INPUT TYPE="button" NAME="five" VALUE="  5  " OnCLick="Calculator.append('5','calcResult')">
+                    <INPUT TYPE="button" NAME="six" VALUE="  6  " OnClick="Calculator.append('6','calcResult')">
+                    <INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calculator.append(' - ','calcResult')">
+                    <br>
+                    <INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calculator.append('7','calcResult')">
+                    <INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calculator.append('8','calcResult')">
+                    <INPUT TYPE="button" NAME="nine" VALUE="  9  " OnClick="Calculator.append('9','calcResult')">
+                    <INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calculator.append(' * ','calcResult')">
+                    <br>
+                    <INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calculator.clear('calcResult')">
+                    <INPUT TYPE="button" NAME="zero" VALUE="  0  " OnClick="Calculator.append('0','calcResult')">
+                    <INPUT TYPE="button" NAME="DoIt" VALUE="  =  " OnClick="Calculator.evaluate('calcResult')">
+                    <INPUT TYPE="button" NAME="div" VALUE="  /  " OnClick="Calculator.append(' / ','calcResult')">
+                    <br>
+                </TD>
+            </TR>
+        </TABLE>
+    </FORM>
+</body>
+
+</html>
